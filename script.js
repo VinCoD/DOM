@@ -7,3 +7,4 @@ navLink.textContent = 'Navigate to Wikipedia';
 
 tit = document.querySelector("title");
 tit.textContent = "Not Today";
+
