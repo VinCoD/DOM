@@ -1,10 +1,6 @@
-document.body.style.backgroundColor = "green";
 
-let navLink = document.getElementById('nav');
-navLink.href = 'https://www.wikipedia.org';
-
-navLink.textContent = 'Navigate to Wikipedia';
-
-tit = document.querySelector("title");
-tit.textContent = "Not Today";
+let button = document.getElementById('changeBackground');
+button.addEventListener("click", ()=>{
+    document.body.style.backgroundColor = "green";
+})
 
